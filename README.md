@@ -35,3 +35,35 @@ current_task:
   project:  "Skyonix Portfolio V2"
   focus:    "GLSL Shaders & Performance"
   status:   "LOCKED_IN"
+YAML
+# technical_philosophy
+principles:
+  - "Optimization is not an afterthought."
+  - "Motion should guide, not distract."
+  - "The UI is the gateway to the logic."
+
+stack_preference:
+  - Frontend: React / Next.js / TS
+  - Creative: Three.js / GSAP / Spline
+  - Backend: Node.js / Python
+Development Ecosystem
+
+Visual & Motion Engineering
+
+Plaintext
+  React / Architecture  ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱   92%  ⚡ EXPERT
+  3D Web / Three.js     ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱   80%  🌌 ADVANCED
+  Motion / GSAP         ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱   90%  🔥 MASTER
+  Backend / API         ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱   60%  📈 GROWING
+🚀 SKYONIX PORTFOLIO V2
+A next-gen interactive experience merging 3D environments with high-performance web architecture.
+
+Interactive 3D: Real-time hero robot engineered with Spline & Three.js.
+
+Performance: Adaptive pixel ratios ensuring 60fps across mobile and desktop.
+
+Visual Design: Glassmorphic cyberpunk aesthetic with custom GLSL neon accents.
+
+Motion: Spring-physics cursor systems and GSAP-orchestrated load sequences.
+
+"Building the future of the web, one frame at a time."
