@@ -147,15 +147,7 @@ Node.js / Backend   ████████████░░░░░░░░
 
 ## ◈ FEATURED PROJECT ◈
 
-</div>
-
-<div align="center">
-
-[![Skyonix Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=SkyonixTheKing23&repo=skyonix-portfolio&hide_border=true&bg_color=0d0000&title_color=ff2222&text_color=ffaaaa&icon_color=ff4444)](https://github.com/SkyonixTheKing23/skyonix-portfolio)
-
-</div>
-
-<div align="center">
+<div
 
 | Feature | Details |
 |:---:|:---|
@@ -189,16 +181,6 @@ Node.js / Backend   ████████████░░░░░░░░
 ## ◈ ACTIVITY ◈
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=SkyonixTheKing23&bg_color=0d0000&color=ff4444&line=8b0000&point=ff2222&area=true&area_color=3d0000&hide_border=true&custom_title=COMMIT+ACTIVITY" width="100%"/>
-
-</div>
-
----
-
-<div align="center">
-
-## ◈ TROPHIES ◈
-
-<img src="https://github-profile-trophy.vercel.app/?username=SkyonixTheKing23&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%"/>
 
 </div>
 
