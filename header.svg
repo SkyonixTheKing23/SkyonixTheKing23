@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 240" width="860" height="240">
+  <defs>
+    <style>
+      @keyframes glitch {
+        0%,90%,100%{transform:translate(0,0)}
+        91%{transform:translate(-4px,1px)}
+        93%{transform:translate(4px,-1px)}
+        95%{transform:translate(-2px,2px)}
+        97%{transform:translate(0,0)}
+      }
+      @keyframes gc {
+        0%,89%,100%{opacity:0}
+        90%{opacity:.5;transform:translate(6px,0)}
+        92%{opacity:.3;transform:translate(-5px,0)}
+        94%{opacity:0}
+      }
+      @keyframes gp {
+        0%,88%,100%{opacity:0}
+        89%{opacity:.45;transform:translate(-6px,0)}
+        91%{opacity:.25;transform:translate(5px,0)}
+        93%{opacity:0}
+      }
+      @keyframes fA{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      @keyframes fB{0%,100%{transform:translateY(-4px)}50%{transform:translateY(5px)}}
+      @keyframes fC{0%,100%{transform:translateY(-2px)}50%{transform:translateY(6px)}}
+      @keyframes pulse{0%,100%{opacity:1;r:4}50%{opacity:.2;r:6}}
+      @keyframes scan{0%{transform:translateY(0);opacity:0}5%{opacity:.08}95%{opacity:.08}100%{transform:translateY(242px);opacity:0}}
+      @keyframes fi{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes pillIn{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}
+
+      .ct{fill:#0a1c2b;stroke:#00d4ff;stroke-width:.9}
+      .cl{fill:#040c16;stroke:#00d4ff;stroke-width:.9}
+      .cr{fill:#020810;stroke:#00d4ff;stroke-width:.9}
+      .gA{animation:fA 3.6s ease-in-out infinite}
+      .gB{animation:fB 4.4s ease-in-out infinite}
+      .gC{animation:fC 5.2s ease-in-out infinite}
+
+      .nm {font-family:'Courier New',Courier,monospace;font-size:78px;font-weight:700;fill:#00d4ff;letter-spacing:8px;animation:glitch 10s ease-in-out infinite}
+      .nc {font-family:'Courier New',Courier,monospace;font-size:78px;font-weight:700;fill:#00d4ff;letter-spacing:8px;opacity:0;animation:gc 10s ease-in-out infinite}
+      .np {font-family:'Courier New',Courier,monospace;font-size:78px;font-weight:700;fill:#a855f7;letter-spacing:8px;opacity:0;animation:gp 10s ease-in-out infinite}
+
+      .pdot{fill:#00d4ff;animation:pulse 2s ease-in-out infinite}
+      .ptxt{font-family:'Courier New',Courier,monospace;font-size:10px;fill:#00d4ff;letter-spacing:2.5px}
+      .sub1{font-family:'Courier New',Courier,monospace;font-size:11px;fill:#a855f7;letter-spacing:3.5px;animation:fi .6s .4s both}
+      .sub2{font-family:'Courier New',Courier,monospace;font-size:10.5px;fill:#8892b0;letter-spacing:1.5px;animation:fi .6s .7s both}
+      .nm-wrap{animation:fi .5s .1s both}
+      .pill{animation:pillIn .5s .05s both}
+      .sc{fill:none;stroke:#00d4ff;stroke-width:.4;animation:scan 6s linear infinite}
+    </style>
+    <filter id="cg">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+    <filter id="ng">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+    <filter id="pg">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="860" height="240" fill="#0a0a12"/>
+
+  <!-- Scan line -->
+  <line class="sc" x1="0" y1="0" x2="860" y2="0"/>
+
+  <!-- ═══════════════════════════════════
+       CUBE PYRAMID — right side x=560..840
+       Diamond shape: rows 1-2-3-4-3
+       Unit 36×18 top face, 24px tall faces
+       Apex center: cx=700, y=30
+  ════════════════════════════════════ -->
+
+  <!-- Row 1 — apex -->
+  <g class="gC" filter="url(#cg)">
+    <polygon class="ct" points="682,30 700,21 718,30 700,39"/>
+    <polygon class="cl" points="682,30 700,39 700,63 682,54"/>
+    <polygon class="cr" points="700,39 718,30 718,54 700,63"/>
+  </g>
+
+  <!-- Row 2 — 2 cubes -->
+  <g class="gB" filter="url(#cg)">
+    <polygon class="ct" points="664,48 682,39 700,48 682,57"/>
+    <polygon class="cl" points="664,48 682,57 682,81 664,72"/>
+    <polygon class="cr" points="682,57 700,48 700,72 682,81"/>
+
+    <polygon class="ct" points="700,48 718,39 736,48 718,57"/>
+    <polygon class="cl" points="700,48 718,57 718,81 700,72"/>
+    <polygon class="cr" points="718,57 736,48 736,72 718,81"/>
+  </g>
+
+  <!-- Row 3 — 3 cubes -->
+  <g class="gA" filter="url(#cg)">
+    <polygon class="ct" points="646,66 664,57 682,66 664,75"/>
+    <polygon class="cl" points="646,66 664,75 664,99 646,90"/>
+    <polygon class="cr" points="664,75 682,66 682,90 664,99"/>
+
+    <polygon class="ct" points="682,66 700,57 718,66 700,75"/>
+    <polygon class="cl" points="682,66 700,75 700,99 682,90"/>
+    <polygon class="cr" points="700,75 718,66 718,90 700,99"/>
+
+    <polygon class="ct" points="718,66 736,57 754,66 736,75"/>
+    <polygon class="cl" points="718,66 736,75 736,99 718,90"/>
+    <polygon class="cr" points="736,75 754,66 754,90 736,99"/>
+  </g>
+
+  <!-- Row 4 — 4 cubes (widest) -->
+  <g class="gB" filter="url(#cg)">
+    <polygon class="ct" points="628,84 646,75 664,84 646,93"/>
+    <polygon class="cl" points="628,84 646,93 646,117 628,108"/>
+    <polygon class="cr" points="646,93 664,84 664,108 646,117"/>
+
+    <polygon class="ct" points="664,84 682,75 700,84 682,93"/>
+    <polygon class="cl" points="664,84 682,93 682,117 664,108"/>
+    <polygon class="cr" points="682,93 700,84 700,108 682,117"/>
+
+    <polygon class="ct" points="700,84 718,75 736,84 718,93"/>
+    <polygon class="cl" points="700,84 718,93 718,117 700,108"/>
+    <polygon class="cr" points="718,93 736,84 736,108 718,117"/>
+
+    <polygon class="ct" points="736,84 754,75 772,84 754,93"/>
+    <polygon class="cl" points="736,84 754,93 754,117 736,108"/>
+    <polygon class="cr" points="754,93 772,84 772,108 754,117"/>
+  </g>
+
+  <!-- Row 5 — 3 cubes base -->
+  <g class="gC" filter="url(#cg)">
+    <polygon class="ct" points="646,102 664,93 682,102 664,111"/>
+    <polygon class="cl" points="646,102 664,111 664,135 646,126"/>
+    <polygon class="cr" points="664,111 682,102 682,126 664,135"/>
+
+    <polygon class="ct" points="682,102 700,93 718,102 700,111"/>
+    <polygon class="cl" points="682,102 700,111 700,135 682,126"/>
+    <polygon class="cr" points="700,111 718,102 718,126 700,135"/>
+
+    <polygon class="ct" points="718,102 736,93 754,102 736,111"/>
+    <polygon class="cl" points="718,102 736,111 736,135 718,126"/>
+    <polygon class="cr" points="736,111 754,102 754,126 736,135"/>
+  </g>
+
+  <!-- Platform glow -->
+  <ellipse cx="700" cy="140" rx="76" ry="7" fill="#00d4ff" opacity=".06" filter="url(#cg)"/>
+  <circle class="pdot" cx="700" cy="147" r="4" filter="url(#cg)"/>
+
+  <!-- ═══════════════════════════════════
+       LEFT TEXT BLOCK — x=30..540
+       Everything aligned left, clean stack
+  ════════════════════════════════════ -->
+
+  <!-- Status pill -->
+  <g class="pill">
+    <rect x="30" y="26" width="274" height="22" rx="11"
+      fill="#00d4ff" fill-opacity=".07"
+      stroke="#00d4ff" stroke-width=".7" stroke-opacity=".5"/>
+    <circle class="pdot" cx="46" cy="37" r="3.5"/>
+    <text class="ptxt" x="58" y="41">SYSTEM_ONLINE: READY_TO_WORK</text>
+  </g>
+
+  <!-- Name block — left aligned, no floating brackets -->
+  <g class="nm-wrap">
+    <!-- Cyan accent bar left of name -->
+    <rect x="30" y="68" width="3" height="76" rx="1.5" fill="#a855f7"/>
+
+    <text class="nc" x="46" y="140" filter="url(#ng)">SKYONIX</text>
+    <text class="np" x="46" y="140" filter="url(#ng)">SKYONIX</text>
+    <text class="nm" x="46" y="140" filter="url(#ng)">SKYONIX</text>
+  </g>
+
+  <!-- Subtitle -->
+  <text class="sub1" x="46" y="166">VOID ARCHITECT  //  FULL-STACK 3D DEV</text>
+
+  <!-- Info line with left border accent -->
+  <rect x="30" y="178" width="2" height="42" rx="1" fill="#00d4ff" opacity=".5"/>
+  <text class="sub2" x="40" y="194">Full-Stack Developer &amp; Software Engineer</text>
+  <text class="sub2" x="40" y="213" style="fill:#4a5568">🇲🇦 Morocco  ·  Open to remote  ·  GMT+1</text>
+</svg>
