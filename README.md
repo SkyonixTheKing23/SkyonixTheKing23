@@ -1,17 +1,12 @@
 <div align="center">
 
-<!-- HEADER SVG — commit header.svg to repo root alongside README.md -->
+<!-- HEADER SVG — upload header.svg to repo root -->
 <img src="header.svg" width="100%" alt="Skyonix — Void Architect"/>
 
 <br/>
 
 <!-- TYPING LINE -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2800&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=⚡+Building+clean%2C+fast+and+beautiful+web+experiences;🌌+Turning+complex+problems+into+elegant+solutions;🚀+60fps+on+every+device+—+no+exceptions;🔥+Full-Stack+·+3D+·+Motion+·+Performance)](https://github.com/SkyonixTheKing23)
-
-<br/>
-
-<!-- VISITOR COUNTER — one badge per line, no &nbsp; between them -->
-<img src="https://komarev.com/ghpvc/?username=SkyonixTheKing23&label=PROFILE+VIEWS&color=0a0a12&style=for-the-badge&labelColor=0d0d1a"/>
 
 </div>
 
@@ -144,12 +139,13 @@ open_to:
 
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SkyonixTheKing23&show_icons=true&hide_border=true&bg_color=0a0a12&title_color=00d4ff&icon_color=a855f7&text_color=8892a4&include_all_commits=true&count_private=true&custom_title=⚡ SYSTEM STATS"/>
+<!-- Each image on its own line — GitHub renders them side by side on desktop -->
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=SkyonixTheKing23&show_icons=true&hide_border=true&bg_color=0a0a12&title_color=00d4ff&icon_color=a855f7&text_color=8892a4&include_all_commits=true&count_private=true&custom_title=SYSTEM+STATS&rank_icon=github"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkyonixTheKing23&layout=compact&hide_border=true&bg_color=0a0a12&title_color=00d4ff&text_color=8892a4&langs_count=6&custom_title=LANGUAGES"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkyonixTheKing23&layout=compact&hide_border=true&bg_color=0a0a12&title_color=00d4ff&text_color=8892a4&langs_count=8&custom_title=🌌 LANGUAGES"/>
+<br/><br/>
 
-<br/>
-
+<!-- Streak — demolab hosted, the only working streak service -->
 <img src="https://streak-stats.demolab.com/?user=SkyonixTheKing23&hide_border=true&background=0a0a12&stroke=1a1a2e&ring=00d4ff&fire=a855f7&currStreakNum=ffffff&sideNums=00d4ff&currStreakLabel=00d4ff&sideLabels=a855f7&dates=4a5568&width=500"/>
 
 </div>
@@ -187,8 +183,6 @@ open_to:
 
 [![LIVE DEMO](https://img.shields.io/badge/🌐_LIVE_DEMO-skyonix--studio.netlify.app-0a0a12?style=for-the-badge&labelColor=0d0d1a)](https://skyonix-studio.netlify.app/)
 
-[![SOURCE CODE](https://img.shields.io/badge/📁_SOURCE_CODE-GitHub-0a0a12?style=for-the-badge&labelColor=0d0d1a&logo=github&logoColor=a855f7)](https://github.com/SkyonixTheKing23/skyonix-portfolio)
-
 </div>
 
 <br/>
@@ -219,7 +213,8 @@ open_to:
 
 <br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SkyonixTheKing23&bg_color=0a0a12&color=00d4ff&line=a855f7&point=00d4ff&area=true&area_color=0d0d2e&hide_border=true&custom_title=🔥 COMMIT FREQUENCY // SKYONIX"/>
+<!-- activity-graph — using the correct current URL format -->
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SkyonixTheKing23&bg_color=0a0a12&color=00d4ff&line=a855f7&point=ffffff&area=true&area_color=0d0d2e&hide_border=true&radius=4&custom_title=COMMIT+FREQUENCY"/>
 
 </div>
 
@@ -241,6 +236,11 @@ open_to:
 
 <br/>
 
+<!-- Profile views — at the bottom where viewers naturally end up -->
+<img src="https://komarev.com/ghpvc/?username=SkyonixTheKing23&label=PROFILE+VIEWS&color=0a0a12&style=for-the-badge&labelColor=0d0d1a"/>
+
+<br/><br/>
+
 ```
 [ ● SYSTEM_ONLINE — VOID ARCHITECT — READY_TO_WORK ]
 ```
@@ -249,5 +249,5 @@ open_to:
 
 </div>
 
-<!-- FOOTER -->
+<!-- FOOTER WAVE -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a12,60:0d0d2e,100:00d4ff&height=100&section=footer"/>
